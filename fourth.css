@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#333;
+    color:white;
+}
+
+.parallax{
+    height:100vh;
+    background-image:url("dog.jpg");
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.content{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+}
+.slide-section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.dog{
+    width:300px;
+    animation:slideUp 2s ease;
+}
+
+@keyframes slideUp{
+    from{
+        transform:translateY(300px);
+        opacity:0;
+    }
+    to{
+        transform:translateY(0);
+        opacity:1;
+    }
+}

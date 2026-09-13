@@ -1,0 +1,46 @@
+body{
+    font-family:Arial;
+    text-align:center;
+    background:#ececec;
+}
+
+input{
+    width:300px;
+    padding:10px;
+    margin:5px;
+    font-size:16px;
+}
+
+.meme{
+    width:600px;
+    margin:20px auto;
+    position:relative;
+}
+
+img{
+    width:100%;
+}
+
+.boy,.girl,.other{
+
+    position:absolute;
+    background:white;
+    padding:5px 10px;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+.boy{
+    bottom:120px;
+    left:210px;
+}
+
+.girl{
+    bottom:120px;
+    left:30px;
+}
+
+.other{
+    top:120px;
+    right:20px;
+}

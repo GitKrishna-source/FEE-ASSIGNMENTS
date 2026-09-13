@@ -1,0 +1,66 @@
+/* Remove default spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#222;
+    color:white;
+
+    padding:15px 60px;
+}
+
+/* Logo */
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* Navigation Links */
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#00bfff;
+}
+
+/* Button */
+.btn{
+    padding:10px 20px;
+    border:none;
+    background:#00bfff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0099cc;
+}
+.container{
+    display: flex;
+}
